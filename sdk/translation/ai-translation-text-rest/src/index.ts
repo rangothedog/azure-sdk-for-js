@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT license.
 
-import TextTranslationClient from "./textTranslationClient";
+import TextTranslation from "./customClient";
 
 export * from "./textTranslationClient";
 export * from "./parameters";
@@ -11,5 +11,6 @@ export * from "./isUnexpected";
 export * from "./models";
 export * from "./outputModels";
 export * from "./serializeHelper";
+export { TranslatorCredential } from "./authentication";
 
-export default TextTranslationClient;
+export default TextTranslation;
